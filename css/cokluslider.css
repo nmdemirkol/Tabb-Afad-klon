@@ -1,0 +1,22 @@
+.b{
+	width:100%;
+	height:auto;
+}
+.b .ic{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.item{
+	background: #F4F4F4;
+	padding:0;
+	margin: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.item img{
+	width:100%;
+	height:auto;
+}
+

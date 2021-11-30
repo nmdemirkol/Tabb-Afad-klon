@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Giriş Sayfası</title>
+<link rel="icon" href="img/afadfav.png" type="image/gif" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+</head>
+<body><div class="logindiv">
+<table>
+<tr>
+	<td>
+
+    <h3>Şifre Sıfırla</h3><div class="ok">
+   <!-- <a href="http://www.gesbilisim.com" target="_blank"  onclick="window.open('http://www.mobilesoft.com.tr'); window.open('http://www.saldemsoft.com'); return true;">+<div class="logo">-->
+        <a  onclick="login()">+<div class="logo">
+        <img style="z-index:5;" src="img/gms.png" height="40" alt=""/>
+        </div>
+    </a>
+</div>
+    </td>
+</tr>
+<tr>
+	<td><input class="user" type="text" id="fname" name="fname" placeholder="Email"></td>
+</tr>
+</table>
+<table>
+<tr>
+	<td><img  src="img/Captcha.jpg" width="70%" alt=""/><input style="width:28%; float:right; line-height:10px; font-size:12px;" type="submit" value="Degiştir"></td>
+</tr>
+<tr>
+    <td><input class="metin" style="float:right; line-height:10px; font-size:12px;" type="text" id="fname" name="fname" placeholder="Yukarıdaki Metni Giriniz"></td>
+</tr>
+</table>
+<table>
+<tr >
+	<td style="padding-top:5px; padding-bottom:10px;"><a href="login.html" class="sag">Başa Dön</a></td>
+</tr>
+<tr>
+	<td><input class="acbtn" type="submit" value="Şifre Sıfırla"></td>
+</tr>
+<tr>
+	<td style="color:#BDBDBD; font-size:11px;">T. C. Başbakanlık Afet ve Acil Durum Yönetimi Başkanlığı</td>
+</tr>
+</table>
+
+</div>  
+
+    <div class="slider">
+    <header id="myCarousel"  class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/bg.jpg);"></div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/login_bg.png);"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/login_bg2.png);"></div>
+            </div>
+        </div>
+
+
+
+    </header>
+</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+	
+		$('.carousel').carousel({
+		interval: 3000
+	})
+    </script>
+<script src="js/login.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+  
+</body>
+</html>

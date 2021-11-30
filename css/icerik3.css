@@ -1,0 +1,326 @@
+.icerik3{
+	width:100%;
+	height:auto;
+	display:table;
+	margin-top:0px;
+}
+.icerik3 .ic{
+	width:1200px;
+	height:auto;
+	display:table;
+	margin:auto;
+	margin-bottom:0px;
+}
+.icerik3 .ic .sol{
+	width:38%;
+	height:auto;
+	display:table;
+	float:right;
+}
+
+.icerik3 .ic .sol .baslik{
+	width:auto;
+	margin:auto 5px;
+	display:table;
+	float:left;
+}
+.icerik3 .ic .sol .baslik img{
+	margin-bottom:10px;
+	width:25px;
+	height:25px;
+	float:left;
+}
+.icerik3 .ic .sol .baslik span{
+	font-size:14px;
+	line-height:25px;
+	font-weight:bold;
+	color:#6B6B6B;
+	float:left;
+	text-indent:10px;
+}
+
+/***** scroll ******/
+.altscroll::-webkit-scrollbar-track{	
+	border-radius: 10px;
+	background-color: transparent;
+}
+.altscroll::-webkit-scrollbar{
+	width: 8px;
+	background-color: #E3E3E3;
+}
+.altscroll::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #47BCE1;
+}
+
+.icerik3 .ic .alt {
+	width:auto;
+	padding:0px 5px 0 5px;
+	display:table;
+	float:right;
+}
+.icerik3 .ic .sag .alt a img,
+.icerik3 .ic .alt a img{
+	margin-bottom:10px;
+	width:20px;
+	height:20px;
+	padding-top:5px;
+	float:left;
+}
+.icerik3 .ic .sag .alt a span,
+.icerik3 .ic .alt a span{
+	font-size:14px;
+	line-height:30px;
+	font-weight:bold;
+	color:#6B6B6B;
+	float:left;
+	text-indent:10px;
+}
+.icerik3 .ic .alt:hover{
+	opacity:0.7;
+}
+.icerik3 .ic .sol .icerik{
+	width:100%;
+	margin:0;
+	height:348px;
+	overflow:scroll;
+	overflow-x:hidden;
+	display:block;
+}
+.icerik3 .ic .sol .icerik table{
+	width:100%;
+	
+}
+.icerik3 .ic .sol .icerik table span.tarih{
+	font-size:12px;
+	color:#9F9F9F;
+	
+}
+.icerik3 .ic .sol .icerik table span.yer{
+	font-size:14px;
+	color:#7E7E7E;
+	font-weight:bold;
+}
+.icerik3 .ic .sol .icerik table span.siddet{
+	font-size:12px;
+	color:#6F6F6F;
+	font-weight:bold;
+}
+.icerik3 .ic .sol .icerik tr {
+	margin:0;
+	border:0;
+}
+
+.icerik3 .ic .sol .icerik th, td {
+    text-align: left;
+    padding: 5px;
+	margin:0;
+	border:0;
+	text-align:center;
+	line-height:20px;
+}
+
+.icerik3 .ic .sol .icerik tr:nth-child(even){background-color: #F0F0F0}
+
+.icerik3 .ic .sag{
+	width:60%;
+	height:auto;
+	display:table;
+	float:left;
+}
+.icerik3 .ic .sag .baslik{
+	width:100%;
+	margin:auto 5px;
+	display:table;
+}
+.icerik3 .ic .sag .baslik img{
+	margin-bottom:10px;
+	width:25px;
+	height:25px;
+	float:left;
+}
+.icerik3 .ic .sag .baslik span{
+	font-size:14px;
+	line-height:25px;
+	font-weight:bold;
+	color:#6B6B6B;
+	float:left;
+	text-indent:10px;
+}
+.icerik3 .ic .sag .baslik .saglb{
+	float:right;
+	height:30px;
+	display:table;
+}
+.icerik3 .ic .sag .baslik .saglb button{
+	background-color:transparent;
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	cursor:pointer;
+}
+.icerik3 .ic .sag .baslik .saglb img{
+	width:20px;
+	height:20px;
+	margin:5px;
+}
+.icerik3 .ic .sag .baslik .saglb img:hover{
+	opacity:0.7;
+}
+.icerik3 .ic .sag .h2icerik{
+	width:100%;
+	height:343px;
+	margin:auto 5px;
+	padding:2px 0;
+	background-color:#E1E1E1;
+	overflow:scroll;
+	overflow-x:hidden;
+	display:block;
+}
+.icerik3 .ic .sag .h1icerik{
+	width:100%;
+	height:343px;
+	margin:auto 5px;
+	padding:2px 0;
+	background-color:#E1E1E1;
+	overflow:scroll;
+	overflow-x:hidden;
+	display:block;
+}
+.icerik3 .ic .sag .h2icerik .haberb{
+	width:168px;
+	height:auto;
+	margin:5px;
+	background-color:#FFFFFF;
+	display:table;
+	float:left;
+	/*transition:all .5s;*/
+}
+.icerik3 .ic .sag .h2icerik .haberb .img{
+	width:160px;
+	display:table;
+	overflow:hidden;
+	margin:4px auto;
+	text-align:center;
+}
+.icerik3 .ic .sag .h2icerik .haberb .img img{
+	max-width:160px;
+	height:98px;
+}
+.icerik3 .ic .sag .h2icerik .haberb .hbaslik{
+	width:95%;
+	height:auto;
+	margin:4px;
+	color:#555555;
+	font-weight:bold;
+	font-size:14px;
+	display:table;
+	text-align:center;
+}
+.icerik3 .ic .sag .h2icerik .haberb .hicerik{
+	display:none;
+}
+
+.icerik3 .ic .sag .h1icerik .haberb{
+	width:100%;
+	height:auto;
+	margin:2px 5px;
+	background-color:#FFFFFF;
+	display:table;
+	float:left;
+	/*transition:all .5s;*/
+}
+.icerik3 .ic .sag .h1icerik .haberb .img{
+	width:15%;
+	height:70px;
+	margin:4px;
+	display:table;
+	overflow:hidden;
+	float:left;
+}
+.icerik3 .ic .sag .h1icerik .haberb .img img{
+	height:70px;
+}
+.icerik3 .ic .sag .h1icerik .haberb .hbaslik{
+	width:80%;
+	height:auto;
+	margin:4px;
+	color:#555555;
+	font-weight:bold;
+	font-size:14px;
+	display:table;
+	text-align:left;
+}
+.icerik3 .ic .sag .h1icerik .haberb .hicerik{
+	width:80%;
+	height:auto;
+	margin:4px;
+	color:#6C6C6C;
+	font-size:13px;
+	display:table;
+	text-align:left;
+}
+@media only screen and (max-width: 1280px) {
+.icerik3 .ic{
+	width:1100px;
+}
+.icerik3 .ic .sag .h2icerik .haberb{
+	width:31.7%;
+}
+}
+@media only screen and (max-width: 1180px) {
+.icerik3 .ic{
+	width:1000px;
+}
+.icerik3 .ic .sol .icerik ul li span.yer{
+	padding-left:10px;
+}
+}
+@media only screen and (max-width: 1080px) {
+.icerik3 .ic{
+	width:900px;
+}
+.icerik3 .ic .sol{
+	width:100%;
+	border-right:0px solid #fff;
+}
+.icerik3 .ic .sag{
+	width:100%;
+		border-right:0px solid #fff;
+}
+.icerik3 .ic .sag .h2icerik .haberb{
+	width:23.8%;
+}
+}
+@media only screen and (max-width: 980px) {
+.icerik3 .ic{
+	width:800px;
+}
+}
+
+@media only screen and (max-width: 880px) {
+.icerik3 .ic{
+	width:700px;
+}
+.icerik3 .ic .sag .h2icerik .haberb{
+	width:31.8%;
+}
+}
+@media only screen and (max-width: 780px) {
+.icerik3 .ic{
+	width:90%;
+}
+.icerik3 .ic .sag .h2icerik .haberb{
+	width:47.5%;
+}
+}
+@media only screen and (max-width: 490px) {
+.icerik3 .ic{
+	width:90%;
+}
+.icerik3 .ic .sag .h2icerik .haberb{
+	width:95%;
+}
+}
+

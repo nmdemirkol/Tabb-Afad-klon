@@ -1,0 +1,298 @@
+.ust{
+	width:100%;
+	height:auto;
+	display:table;
+	background-image:url(../img/kurum-foto_yeni3.png);
+	background-size:100% 100%;
+	background-position:bottom center;
+	border-bottom:#888888 1px solid;
+}
+.ust .ic{
+	width:1200px;
+	height:auto;
+	display:table;
+	margin:auto;
+	position:relative;
+}
+.ust .ic{
+	width:1200px;
+	height:auto;
+	display:table;
+	margin:auto;
+	position:relative;
+}
+.ust .ic .sol{
+	width:auto;
+	height:80px;
+	margin:10px 0;
+	float:left;
+}
+.ust .ic .sol img{
+	width:auto;
+	height:80px;
+	float:left;
+}
+.ust .ic .sol .klogo{
+	display:none;
+}
+.ust .ic .sol .blogo{
+	display:block;
+}
+.ust .ic .sag{
+	width:700px;
+	height:91px;
+	margin:10px 0 0 0;
+	float:right;
+}
+.ust .ic .sag .sagust{
+	width:auto;
+	height:20px;
+	margin:0;
+	float:right;
+}
+.ust .ic .sag .sagalt{
+	width:auto;
+	height:60px;
+	margin:10px 0 0 0;
+	float:right;
+}
+.sagmenuicon{
+	margin:0 20px;
+	padding:0;
+	line-height:25px;
+	font-size:25px;
+	cursor:pointer;
+	float:right;
+	display:none;
+}
+
+.ust .ic ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:table;
+	float:left;
+}
+.ust .ic ul li{
+	Float:left;
+
+}
+.ust .ic ul li a{
+	text-decoration:none;
+	display:table;
+}
+.ust .ic ul li a .face{
+	background-image:url(../img/icon/f1.png);
+	width:25px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:17px;
+}
+.ust .ic ul li a:hover .face{
+	background-image:url(../img/icon/f2.png);
+}
+.ust .ic ul li a .user{
+	background-image:url(../img/icon/user1.png);
+	width:25px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:17px;
+}
+.ust .ic ul li a:hover .user{
+	background-image:url(../img/icon/user2.png);
+}
+.ust .ic ul li a .twit{
+	background-image:url(../img/icon/t1.png);
+	width:25px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:17px;
+}
+.ust .ic ul li a:hover .twit{
+	background-image:url(../img/icon/t2.png);
+}
+.ust .ic ul li a .yout{
+	background-image:url(../img/icon/y1.png);
+	width:25px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:17px;
+}
+.ust .ic ul li a:hover .yout{
+	background-image:url(../img/icon/y2.png);
+}
+.ust .ic ul li a .flic{
+	background-image:url(../img/icon/fi1.png);
+	width:25px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:17px;
+}
+.ust .ic ul li a:hover .flic{
+	background-image:url(../img/icon/fi2.png);
+}
+.ust .ic ul li a .inst{
+	background-image:url(../img/icon/i1.png);
+	width:25px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:17px;
+}
+.ust .ic ul li a:hover .inst{
+	background-image:url(../img/icon/i2.png);
+}
+.ust .ic ul li a .alo{
+	background-image:url(../img/icon/alo.png);
+	width:50px;
+	height:25px;
+	float:left;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:50px;
+}
+.ust .ic ul li a span{
+	line-height:25px;
+	float:left;
+	color:#888888;
+	font-size:14px;
+}
+.ust .ic ul li a:hover span{
+	color:#333333;
+}
+.ust .ic ul li input[type=text] {
+	color:#888888;
+    width: 130px;
+    outline:0;
+    border: 0px solid #ccc;
+    border-bottom: 1px solid #888888;
+    font-size: 12px;
+    background-color: transparent;
+    background-image:url(../img/icon/ara1.png);
+    background-position: 10px center; 
+    background-repeat: no-repeat;
+	background-size:17px;
+    padding: 6px 20px 6px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.ust .ic ul li:hover input[type=text]{
+	border-bottom: 1px solid #333;
+	color:#333333;
+    background-image:url(../img/icon/ara2.png);
+}
+.ust .ic ul li input[type=text]:focus {
+	border-bottom: 1px solid #333;
+	color:#333333;
+    background-image:url(../img/icon/ara2.png);
+}
+
+@media only screen and (max-width: 1280px) {
+.ust .ic{
+	width:1100px;
+}
+}
+@media only screen and (max-width: 1180px) {
+.ust .ic{
+	width:1000px;
+}
+}
+@media only screen and (max-width: 1080px) {
+.ust .ic{
+	width:900px;
+}
+.ust .ic .sol .klogo{
+	display:block;
+}
+.ust .ic .sol .blogo{
+	display:none;
+}
+}
+@media only screen and (max-width: 980px) {
+.ust .ic{
+	width:800px;
+}
+}
+
+@media only screen and (max-width: 880px) {
+.ust .ic{
+	width:700px;
+}
+.ust .ic .sag {
+	width:200px;
+	margin:20px 0;
+	height:40px;
+}
+.ust .ic .sag .sagalt{
+	display:none;
+}
+.ust .ic .sagmenuicon{
+	display:block;
+}
+.ust .ic .sag .sagust{
+	display:none;
+}
+.ust .ic .sol .klogo{
+	display:none;
+}
+.ust .ic .sol .blogo{
+	display:block;
+}
+.ust .ic .sag {
+	margin:30px 0 0 0;
+}
+}
+@media only screen and (max-width: 780px) {
+.ust .ic{
+	width:90%;
+}
+.ust .ic .sol{
+	height:60px;
+}
+.ust .ic .sol .blogo{
+	height:60px;
+}
+.ust .ic .sag {
+	margin:20px 0 0 0;
+}
+}
+@media only screen and (max-width: 490px) {
+.ust .ic{
+	width:90%;
+}
+.ust .ic .sol{
+	height:60px;
+	margin:5px 0;
+}
+.ust .ic .sol .blogo{
+	height:60px;
+}
+.sil{
+	display:none;
+}
+.ust .ic .sag {
+	width:50px;
+	margin:20px 0 0 0;
+	height:40px;
+}
+}
+@media only screen and (max-width: 330px) {
+.ust .ic .sol .klogo{
+	display:block;
+	height:60px;
+}
+.ust .ic .sol .blogo{
+	display:none;
+}
+}

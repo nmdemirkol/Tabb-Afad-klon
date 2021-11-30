@@ -1,0 +1,334 @@
+.detayicerik{
+	width:100%;
+	height:auto;
+	display:table;
+}
+.detayicerik .ic{
+	width:1200px;
+	height:auto;
+	display:table;
+	margin:10px auto 5px auto;
+	background-color:#F9F9F9;
+	
+}
+.detayicerik .sol{
+	width:100%;
+	height:auto;
+	display:table;
+	float:left;
+}
+.detayicerik .sol2{
+	width:75%;
+	height:auto;
+	display:table;
+	float:left;
+}
+
+.detayicerik .detaybaslik{
+	width:100%;
+	height:30px;
+	display:table;
+	background-color:#F9F9F9;
+}
+.detayicerik .detaybaslik .konubaslik{
+	line-height:30px;
+	font-size:18px;
+	color:#3D3D3D;
+	text-indent:10px;
+	float:left;
+}
+.detayicerik .detaybaslik .kapsa{
+	width:auto;
+	float:right;
+}
+.detayicerik .detaybaslik .icon{
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	color:#3D3D3D;
+	text-indent:10px;
+	float:right;
+	padding-right:5px;
+	border-left:#CDCDCD 1px solid;
+	margin:0;
+}
+.detayicerik .detaybaslik .icon a img{
+	width:16px;
+	height:16px;
+	padding:8px 3px 8px 0;
+	margin:0;
+	line-height:normal;
+}
+.detayicerik .detaybaslik .icon a:hover img{
+	opacity:0.7;
+}
+.detayicerik .detayveriler{
+	width:100%;
+	height:40px;
+	display:table;
+	background-color:#F3F3F3;
+	margin-bottom:5px;
+}
+.detayicerik .detayveriler table{
+	border-collapse: collapse;
+    width: 100%;
+	border-left:1px solid #DDDDDD;
+}
+.detayicerik .detayveriler table tr{
+	border-bottom:1px solid #C5C5C5;
+}
+
+.detayicerik .detayveriler table th{
+	text-align: left;
+    padding: 8px;
+	color:#535353;
+	font-size:16px;
+	border-right:1px solid #DDDDDD;
+}
+.detayicerik .detayveriler table td{
+	text-align: left;
+    padding: 8px;
+	color:#636363;
+	font-size:14px;
+	border-right:1px solid #DDDDDD;
+}
+.detayicerik .detayveriler table tr:hover td{
+	background-color:#EFEFEF;
+}
+tr:nth-child(even){background-color: #FFFFFF}
+.detayicerik .detayveriler table td a{
+	text-decoration:none;
+	color:#636363;
+}
+.detayicerik .detayveriler table td a:hover{
+	color:#000000;
+}
+
+
+
+
+
+
+
+.sayfalama{
+	display:table;
+	margin:auto;
+	
+}
+.sayfalama a{
+	text-decoration:none;
+
+}
+
+
+.twelve { width: 100%; }
+.eleven { width: 91.53%; }
+.ten { width: 83.06%; }
+.nine { width: 74.6%; }
+.eight { width: 66.13%; }
+.seven { width: 57.66%; }
+.six { width: 49.2%; }
+.five { width: 40.73%; }
+.four { width: 32.26%; }
+.three { width: 23.8%; }
+.two { width: 15.33%; }
+.one { width: 6.866%; }
+
+/* COLUMNS */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 0;
+}
+
+.col:first-of-type {
+  margin-left: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* GENERAL STYLES */
+
+.pagination{
+  padding: 0;
+}
+
+.pagination ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a{
+  display: inline-block;
+  padding: 5px 8px;
+  color: #222;
+}
+
+.p12 a:first-of-type,.p12 a:last-of-type{
+  background-color: #888888;
+  color: #fff;
+  font-weight: bold;
+  border-radius:3px;
+}
+.p12 .is-active{
+  background-color: #EC7404;
+  color: #fff;
+  font-weight: bold;
+  border-radius:3px;
+}
+.p12 a:first-of-type:hover, .p12 a:last-of-type:hover, .p12 .is-active:hover{
+  background-color: #003E7F;
+  color: #fff;
+  font-weight: bold;
+
+}
+.detayicerik .detaybaslik .icon a{
+	float:left;
+}
+input[type=text] {
+	margin:0;
+    width: 20px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url(../img/icon/ara1.png);
+    background-position: 7px center; 
+    background-repeat: no-repeat;
+	background-size:16px;
+    padding: 2px 10px 2px 30px;
+    -webkit-transition:.3s;
+    transition: .3s;
+}
+
+input[type=text]:focus {
+    width: 130px;
+	
+}
+
+
+
+
+@media only screen and (max-width: 1280px) {
+.detayicerik .ic{
+	width:1100px;
+}
+.detayicerik .ic .i2b{
+	width:32%;
+}
+.detayicerik .ic .i2b .i2bbaslik{
+	width:60%;
+}
+.detayicerik .ic .i2b .i2bicerik{
+	width:60%;
+}
+}
+@media only screen and (max-width: 1180px) {
+.detayicerik .ic{
+	width:1000px;
+}
+}
+@media only screen and (max-width: 1080px) {
+.detayicerik .ic{
+	width:900px;
+}
+.detayicerik .ic .i2b{
+	width:100%;
+}
+.detayicerik .ic .i2b .i2bbaslik{
+	width:80%;
+}
+.detayicerik .ic .i2b .i2bicerik{
+	width:80%;
+}
+.detayicerik .detayveriler2 .detayveri{
+	width:32%;
+}
+}
+@media only screen and (max-width: 980px) {
+.detayicerik .ic{
+	width:800px;
+}
+
+}
+
+@media only screen and (max-width: 880px) {
+.detayicerik .ic{
+	width:700px;
+}
+.detayicerik .ic .i2b{
+	width:100%;
+}
+.detayicerik .ic .i2b .i2bbaslik{
+	width:65%;
+}
+.detayicerik .ic .i2b .i2bicerik{
+	width:65%;
+}
+.detayicerik .sol{
+	width:100%;
+}
+.detayicerik .sag{
+	width:100%;
+}
+.detayicerik .sol2{
+	width:100%;
+}
+}
+@media only screen and (max-width: 780px) {
+.detayicerik .ic{
+	width:90%;
+}
+.detayicerik .detayveriler2 .detayveri{
+	width:48.5%;
+}
+.detayicerik .detayveriler .detayveri{
+	width:97%;
+}
+}
+@media only screen and (max-width: 490px) {
+.detayicerik .ic{
+	width:90%;
+}
+.detayicerik .ic .i2b{
+	width:100%;
+}
+.detayicerik .ic .i2b .i2bbaslik{
+	width:100%;
+}
+.detayicerik .ic .i2b .i2bicerik{
+	width:100%;
+}
+.detayicerik .detayveriler2 .detayveri{
+	width:99%;
+}
+.detayicerik .detayveriler .detayveri{
+	width:94%;
+}
+}
+

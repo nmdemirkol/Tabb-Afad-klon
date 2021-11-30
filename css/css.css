@@ -1,0 +1,61 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "Titillium Web", arial, sans-serif;
+	
+}
+
+/* Tab style */
+#scrollUp {
+    bottom: 0;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: -10px;
+    padding: 10px 5px;
+    font: 14px/20px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    color: #828282;
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #E6E6E6;
+    background-image: -moz-linear-gradient(top, #EBEBEB, #DEDEDE);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EBEBEB), to(#DEDEDE));
+    background-image: -webkit-linear-gradient(top, #EBEBEB, #DEDEDE);
+    background-image: -o-linear-gradient(top, #EBEBEB, #DEDEDE);
+    background-image: linear-gradient(to bottom, #EBEBEB, #DEDEDE);
+    background-repeat: repeat-x;
+    -webkit-transition: margin-bottom 150ms linear;
+    -moz-transition: margin-bottom 150ms linear;
+    -o-transition: margin-bottom 150ms linear;
+    transition: margin-bottom 150ms linear;
+}
+
+#scrollUp:hover {
+    margin-bottom: 0;
+}
+.geribtn {
+    background-color: #787878;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0;
+    cursor: pointer;
+	opacity:0.7;
+	transition:all .3s;
+	outline:0;
+	position:fixed;
+	right:0;
+	top:80vh;
+	z-index:999999;
+}
+.geribtn:hover {
+	opacity:1;
+	transition:all .3s;
+}

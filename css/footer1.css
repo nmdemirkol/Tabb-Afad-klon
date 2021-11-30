@@ -1,0 +1,104 @@
+.footer1{
+	width:100%;
+	height:auto;
+	display:table; 
+	background-color:#EC7404;
+	border-top:1px solid #333;
+}
+.footer1 .ic{
+	width:1200px;
+	height:30px;
+	display:table;
+	margin:auto;
+	padding:3px 0;
+	position:relative;
+}
+.footer1 .ic .orta{
+	width:auto;
+	height:30px;
+	display:table;
+	margin:auto;
+	line-height:30px;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	padding:0 100px 0 0;
+	text-align:center;
+}
+.footer1 .ic .sag{
+
+	padding:0 10px 0 0;
+	
+	display:table;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.footer1 .ic .sag:hover{
+	background-color:#FFFFFF;
+	
+}
+.footer1 .ic .sag a{
+	width:100px;
+	padding:0 10px;
+	height:35px;
+	text-decoration:none;
+	line-height:35px;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+}
+.footer1 .ic .sag:hover a{
+	color:#EC7404;
+}
+.footer1 .ic .sag a .yukariok{
+	background-image:url(../img/icon/yu1.png);
+	background-size:16px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:16px;
+	height:35px;
+	float:right;
+}
+.footer1 .ic .sag:hover a .yukariok{
+	background-image:url(../img/icon/yu2.png);
+}
+
+
+@media only screen and (max-width: 1280px) {
+.footer1 .ic{
+	width:1100px;
+}
+}
+@media only screen and (max-width: 1180px) {
+.footer1 .ic{
+	width:1000px;
+}
+}
+@media only screen and (max-width: 1080px) {
+.footer1 .ic{
+	width:900px;
+}
+}
+@media only screen and (max-width: 980px) {
+.footer1 .ic{
+	width:800px;
+}
+}
+
+@media only screen and (max-width: 880px) {
+.footer1 .ic{
+	width:700px;
+}
+}
+@media only screen and (max-width: 780px) {
+.footer1 .ic{
+	width:90%;
+}
+}
+@media only screen and (max-width: 490px) {
+.footer1 .ic{
+	width:90%;
+}
+}
+

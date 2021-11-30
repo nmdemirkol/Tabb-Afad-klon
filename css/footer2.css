@@ -1,0 +1,108 @@
+.footer2{
+	width:100%;
+	height:auto;
+	display:table;
+	background-color:#333;
+	position:relative;
+	
+}
+.footer2 .ic{
+	width:1200px;
+	height:280px;
+	display:table;
+	margin:10px auto;
+	padding:3px 0 30px 0;
+}
+.footer2 .ic .b{
+	width:16%;
+	height:auto;
+	display:table;
+	float:left;
+	padding:3px 0;
+}
+.footer2 .ic .b h5{
+	margin:15px 5px;
+	padding:0;
+	line-height:15px;
+	font-size:16px;
+	color:#B5B5B5;
+	
+}
+.footer2 .ic .b ul{
+	list-style:circle;
+	margin:0;
+	margin-left:20px;
+	padding:0;
+	display:table;
+}
+.footer2 .ic .b ul li{
+	margin:0;
+	color:#909090;
+}
+.footer2 .ic .b ul li a{
+	text-decoration:none;
+	line-height:15px;
+	font-size:12px;
+	color:#909090;
+	
+}
+
+@media only screen and (max-width: 1280px) {
+.footer2 .ic{
+	width:1100px;
+}
+}
+@media only screen and (max-width: 1180px) {
+.footer2 .ic{
+	width:1000px;
+}
+}
+@media only screen and (max-width: 1080px) {
+.footer2 .ic{
+	width:900px;
+}
+}
+@media only screen and (max-width: 980px) {
+.footer2 .ic{
+	width:800px;
+}
+.footer2 .ic .b{
+	width:33%;
+}
+.footer2 .ic{
+	padding:3px 0 80px 0;
+}
+}
+
+@media only screen and (max-width: 880px) {
+.footer2 .ic{
+	width:700px;
+}
+.footer2 .ic{
+	padding:3px 0 80px 0;
+}
+}
+@media only screen and (max-width: 780px) {
+.footer2 .ic{
+	width:90%;
+}
+.footer2 .ic .b{
+	width:50%;
+}
+.footer2 .ic{
+	padding:3px 0 10px 0;
+	margin-bottom:100px;
+}
+
+}
+@media only screen and (max-width: 490px) {
+.footer2 .ic{
+	width:90%;
+	margin-bottom:220px;
+}
+.footer2 .ic .b{
+	width:100%;
+}
+
+}
+
